@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url('pngtree-liquid-abstract-colorful-background-form-image_386556.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+button {
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: 600;
+    width: 120px;
+    background-color: blue;
+    text-shadow: 1px 1px 0px white, -1px -1px 0px white;
+}
+
+button:hover {
+    background-color: rgb(247, 255, 1);
+    transition: all 0.9s;
+}
+
+button:focus {
+    background-color: rgb(1, 255, 56);
+    transition: all 0.9s;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.MainBox {
+    transition: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    height: 500px;
+    width: 500px;
+    border:transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.10);
+    position: relative;
+
+}
+
+.RedBox {
+
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-image: url('emoji-face-png-27.png');
+    background-size: contain;
+    
+    inset: 0px;
+}
+
+.GreenBox {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-image: url('309427049114211.webp');
+    background-size: contain;
+    inset: 450px;
+    z-index: 1;
+}
+
+.PinkBox {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-image: url('311621262046211.webp');
+    background-size: contain;
+    left: 450px;
+    top: 0;
+}
+
+.BlueBox {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-image: url('309994674040211.webp');
+    background-size: contain;
+    left: 0px;
+    top: 450px;
+    text-wrap: wrap;
+
+}
